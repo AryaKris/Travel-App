@@ -26,6 +26,45 @@ main {
   height: auto;
   padding: 30px;
 }
-.services-text{
-  color: #DF6951;
+.services-text {
+  color: #df6951;
+}
+
+/* Trip Booking Guide */
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ul li img {
+  display: flex;
+  max-width: 40px; 
+  margin-right: 10px;
+}
+
+.book-trip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.booking-guide {
+  text-align: center;
+}
+.image-group img {
+  max-width: 100%;
+}
+
+.bookings-text{
+ font-size: 14px; 
+}
+
+
+.flight-image {
+  max-width: 50%; 
+  float: right; 
+  margin-left: 20px; 
 }
