@@ -2,27 +2,30 @@
         - Please make sure to do formatting before commiting
 */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Poppins;
+  margin: 0;
+  font-family: Poppins;
 }
 
 main {
-    /* Turns this element into a flexbox */
-    display: flex;
-    margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .best-services {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 .card-services {
-    padding: 30px;
-    justify-content: center;
-
+  max-width: 100%;
+  height: auto;
+  padding: 30px;
+}
+.services-text{
+  color: #DF6951;
 }
