@@ -1,133 +1,155 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;600&family=Volkhov:ital,wght@1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@400;500&family=Sora:wght@200;300;800&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header class="best-services">
-      <h4 class="services-text">CATEGORY</h4>
-      <h2 class="services-main">We Offer Best Services</h2>
-    </header>
-    <main>
-      <div class="services-container">
-        <section class="card-services">
-          <div class="services-image">
-            <img src="./assets/images/tour-guide 1.png" alt="guided tours" />
-          </div>
-          <h4 class="services-heading">Guided Tours</h4>
-          <p class="services-content">
-            sunt qui repellat saepe<br />
-            quo velit aperiam id <br />aliquam placeat.
-          </p>
-        </section>
-        <section class="card-services">
-          <div class="services-image">
-            <img src="./assets/images/travelling 1.png" />
-          </div>
-          <h4 class="services-heading">Best Flight Options</h4>
-          <p class="services-content">
-            sunt qui repellat saepe<br />
-            quo velit aperiam id <br />aliquam placeat.
-          </p>
-        </section>
-        <section class="card-services">
-          <div class="services-image">
-            <img src="./assets/images/hands 1.png" />
-          </div>
-          <h4 class="services-heading">Religious Tours</h4>
-          <p class="services-content">
-            sunt qui repellat saepe<br />
-            quo velit aperiam id<br />
-            aliquam placeat.
-          </p>
-        </section>
-        <section class="card-services">
-          <div class="services-image">
-            <img src="./assets/images/medical-team 1.png" />
-          </div>
-          <h4 class="services-heading">Medical Insurance</h4>
-          <p class="services-content">
-            sunt qui repellat saepe<br />
-            quo velit aperiam id <br />aliquam placeat.
-          </p>
-        </section>
-      </div>
+    <div id="root">
+      <section class="navbar-section">
+        <nav>
+          <ul class="navbar">
+            <div class="navbar-image-section">
+              <li class="navbar-travel">Travel</li>
+              <img src="images/Arrow-05.png" alt="navbar-arrow" />
+            </div>
+            
+            <div class="navbar-contents-middle">
+              <li class="navbar-contents"><a href="#" class="navbar-links">Home</a></li>
+              <li class="navbar-contents"><a href="#" class="navbar-links">About</a></li>
+              <li class="navbar-contents dropdown"><a href="#" class="navbar-links">Services</a>
+                <ul class="dropping">
+                  <img src="images/Union.png" alt="square-box" />
+                  <div class="dropbox">
+                    <li class="navbar-services-contents"><a href="#" class="navbar-service-links">Honeymoon Packages</a></li>
+                    <li class="navbar-services-contents"><a href="#" class="navbar-service-links">Tours Packages</a></li>
+                    <li class="navbar-services-contents"><a href="#" class="navbar-service-links">Musical Events</a></li>
+                    <li class="navbar-services-contents"><a href="#" class="navbar-service-links">Build Packages</a></li>
+                  </div>
+                  
+                </ul>
+              </li>
+                  
+                
+              <li class="navbar-contents"><a href="#" class="navbar-links">Upcoming Packages</a></li>
+              
+            </div>
+            <button class="navbar-button" >Get in Touch</button>
+          </ul>
+        </nav>
+      </section>
+      
+    </div>
+<!-- Best Services Section -->
+     <header class="best-services">
+    <h4 class="services-text">CATEGORY</h4>
+    <h2 class="mainHeading">We Offer Best Services</h2>
+  </header>
+  <main>
+    <div class="container">
+      <section class="card-services">
+        <div class="divImage">
+          <img src="./images/tour-guide 1.png" alt="guided tours" />
+        </div>
 
-      <!--Trip Booking Guide FR-9  -->
-      <div class="container-book-trip">
-        <section>
-          <div>
-            <div class="booking-guide">
-              <h4 class="services-text">Fast & Easy</h4>
-              <h2 class="services-mainheading">
-                Get Your Favorite
-                <br />
-                Resort Bookings
-              </h2>
-              <ul>
-                <li>
-                  <div class="image-group">
-                    <img src="./assets/images/Group 7.png" alt="icon" />
+        <h4 class="heading">Guided Tours</h4>
+        <p class="content">sunt qui repellat saepe quo velit aperiam id aliquam placeat.
+        </p>
+      </section>
+      <section class="card-services">
+        <div class="divImage">
+          <img src="./images/travelling 1.png" />
+        </div>
+        <h4 class="heading">Best Flight Options</h4>
+        <p class="content">
+          sunt qui repellat saepe
+          quo velit aperiam id aliquam placeat.
+        </p>
+      </section>
+      <section class="card-services">
+        <div class="divImage">
+          <img src="./images/hands 1.png" />
+        </div>
+        <h4 class="heading">Religious Tours</h4>
+        <p class="content">
+          sunt qui repellat saepe
+          quo velit aperiam id
+          aliquam placeat.
+        </p>
+      </section>
+      <section class="card-services">
+        <div class="divImage">
+          <img src="./images/medical-team 1.png" />
+        </div>
+        <h4 class="heading">Medical Insurance</h4>
+        <p class="content">
+          sunt qui repellat saepe
+          quo velit aperiam id aliquam placeat.
+        </p>
+      </section>
+    </div>
+    <!--Trip Booking Guide FR-9  -->
+    <div class="container-book-trip">
+      <section>
+        <div>
+          <div class="float-child">
+            <h4 class="services-text">Fast & Easy</h4>
+            <h2 class="service-mainHeading">
+              Get Your Favorite Resort Bookings
+            </h2>
+            <ul>
+              <li>
+                <div class=" image-group">
+                  <img src="./images/Group 7.png" alt="icon" />
+                </div>
+                <div>
+                  <div style="padding-left: 10px;">
+                    <span class="headingImg">Choose Destination</span><br />
+                    <span class="contentImg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor
+                      tempus.</span>
                   </div>
-                  <div>
-                    <div style="padding-left: 10px">
-                      <span class="headingImg">Choose Destination</span><br />
-                      <span class="contentImg"
-                        >Lorem ipsum dolor sit amet, consectetur
-                        <br />adipiscing elit. Urna, tortor tempus.</span
-                      >
-                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="image-group">
+                  <img src="./images/Group 12.png" alt="icon" />
+                </div>
+                <div>
+                  <div style="padding-left: 10px;">
+                    <span class="headingImg">Choose Destination</span><br />
+                    <span class="contentImg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor
+                      tempus.</span>
                   </div>
-                </li>
-                <li>
-                  <div class="image-group">
-                    <img src="./assets/images/Group 11.png" alt="icon" />
+                </div>
+              </li>
+              <li>
+                <div class="image-group">
+                  <img src="./images/Group 11.png" alt="icon" />
+                </div>
+                <div>
+                  <div style="padding-left: 10px;">
+                    <span class="headingImg">Choose Destination</span><br />
+                    <span class="contentImg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor
+                      tempus.</span>
                   </div>
-                  <div>
-                    <div style="padding-left: 10px">
-                      <span class="headingImg">Choose Destination</span><br />
-                      <span class="contentImg"
-                        >Lorem ipsum dolor sit amet, consectetur<br />
-                        adipiscing elit. Urna, tortor tempus.</span
-                      >
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="image-group">
-                    <img src="assets/images/Group 12.png" alt="icon" />
-                  </div>
-                  <div>
-                    <div style="padding-left: 10px">
-                      <span class="headingImg">Choose Destination</span><br />
-                      <span class="contentImg"
-                        >Lorem ipsum dolor sit amet, consectetur
-                        <br />adipiscing elit. Urna, tortor tempus.</span
-                      >
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="booking-guide">
-              <div style="object-fit: contain">
-                <img
-                  src="./assets/images/Illustration.png"
-                  alt="FlightOptions"
-                  class="image-illustration"
-                />
-              </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="float-child">
+            <div style="object-fit: contain;">
+              <img src="./images/Illustration.png" alt="FlightOptions" class="imgIllustration" />
             </div>
           </div>
-        </section>
-      </div>
-    </main>
+        </div>
+      </section>
+    </div>
+  </main>
     <script src="index.js"></script>
   </body>
 </html>
+<html>
+
