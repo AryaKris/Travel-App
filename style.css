@@ -1589,18 +1589,24 @@ body {
   }
 }
 
-
 /* My services-container */
 .services-container {
   width: 75%;
   text-align: center;
   margin: auto;
+  display: flow-root;
+}
+
+.best-services {
+  text-align: center;
+  padding: 10px;
 }
 
 .container-book-trip {
   width: 75%;
   text-align: left;
   margin: auto;
+  display: flex;
 }
 
 .best-services {
@@ -1624,6 +1630,15 @@ body {
 }
 
 /* Trip Booking Guide */
+
+.float-child {
+  width: 40%;
+  float: left;
+}
+
+.image-group img {
+  max-width: 100%;
+}
 
 .img-icon-container {
   display: flex;
@@ -1717,22 +1732,123 @@ body {
   color: #5e6282;
 }
 
-.float-child {
-  width: 45%;
-  float: left;
-}
-
 .imgIllustration {
   max-width: auto;
   height: auto;
 }
+
+.imgIllustration-background-square {
+  position: absolute;
+  top: 125px;
+  left: 117px;
+}
+
+.imgIllustration-background-building {
+  position: absolute;
+  top: 150px;
+  left: 221px;
+}
+
+.imgIllustration-background-flight {
+  position: absolute;
+  top: -18px;
+  left: 315px;
+  z-index: -1;
+}
+
+.imgIllustration-background-ellips-blue {
+  opacity: 0.3;
+}
+
+.image-background-element {
+  position: absolute;
+  top: 430px;
+  left: 123px;
+  z-index: -1;
+}
+
+.div-trip-to-hawaii {
+  position: absolute;
+  top: 332px;
+  left: 200px;
+  height: auto;
+  width: 100%;
+}
+
+.trip-to-hawaii-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #5e6282;
+  padding-left: 10px;
+}
+
+.trip-to-hawaii-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #5e6282;
+  padding-left: 10px;
+}
+
+.trip-to-hawaii-text-40-percent {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #c90e36;
+  padding-left: 10px;
+}
+
+.trip-to-hawaii-icons {
+  padding: 10px;
+}
+
+.trip-to-hawaii-icons-building {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.trip-to-hawaii-icons-heart {
+  padding-left: 100px;
+  position: absolute;
+  top: 139px;
+}
+
+.trip-to-hawaii-rectangle-small-img {
+  position: absolute;
+  top: 334px;
+  left: 362px;
+}
+
+.trip-to-hawaii-rectangle-small-ellipse-img {
+  position: absolute;
+  top: 360px;
+  left: 460px;
+}
+
+.trip-to-hawaii-trip-to-rome-div {
+  position: absolute;
+  top: 350px;
+  left: 516px;
+}
+
 /*Section for Tour Package-*/
 .tour-boxes-container {
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
+  width: 100%;
   margin: auto;
-  width: 75%;
+}
+
+.div-section-container {
+  display: flex;
+  gap: 50px;
+  margin: auto;
 }
 
 .tour-boxes-container .content {
@@ -1789,17 +1905,65 @@ body {
   left: 15px;
 }
 
-/*End Tour Package*/
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .div-section-container {
+    flex-wrap: wrap;
+  }
 
-/* Responsive layout - */
-@media screen and (max-width: 600px) {
+  .card-services {
+    width: 50%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .tour-boxes-container {
+    width: 75%;
+  }
+
+  .div-section-container {
+    flex-wrap: wrap;
+  }
+
   .card-services {
     width: 100%;
   }
 
+  .imgIllustration-background-flight {
+    width: 100%;
+    height: 100%;
+    top: -59px;
+    background-color: #0caa2f;
+  }
+
+  .container-book-trip {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tour-packages-section {
+    width: 100%;
+  }
+
+  .tour-boxes-container {
+    width: 75%;
+  }
+
+  .div-section-container {
+    flex-wrap: wrap;
+  }
+
+  .card-services {
+    width: 50%;
+  }
+
   .imgIllustration {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
   }
 
   .service-mainHeading {
@@ -1813,5 +1977,37 @@ body {
 
   .services-heading {
     font-size: 30px;
+  }
+
+  .container-book-trip {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .tour-boxes-container {
+    width: 83%;
+  }
+
+  .div-section-container {
+    flex-wrap: wrap;
+  }
+
+  .card-services {
+    width: 50%;
+  }
+
+  .imgIllustration {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .tour-boxes-container {
+    width: 98%;
   }
 }
