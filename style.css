@@ -2172,19 +2172,57 @@ body {
   padding: 10px;
 }
 
-.card-services {
-  float: left;
-  width: 25%;
-  padding: 10px;
+.card-wrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.services-text {
-  color: #df6951;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 27px;
-  letter-spacing: 0em;
+.card-services {
+  width: 220px;
+  padding: 10px 20px;
+  border-radius: 24px;
+  background: white;
+  position: relative;
+  flex-grow: 1;
+  min-width: 240px;
+  box-sizing: border-box;
+}
+
+.card-services:hover {
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+}
+
+.card-services:hover::after {
+  content: "";
+  position: absolute;
+  top: 75%;
+  right: 65%;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+  background: #df6951;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .services-container {
+    max-width: 90%;
+  }
+
+  .card-services {
+    width: calc(50% - 40px);
+  }
+}
+
+/* Add media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .card-services {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
 }
 
 /* Trip Booking Guide */
