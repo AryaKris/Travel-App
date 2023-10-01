@@ -1,0 +1,284 @@
+.trend-section {
+  max-width: 1920px;
+  margin: 100px auto;
+  position: relative;
+  padding: 20px;
+}
+
+.trend-section-container {
+  max-width: 1340px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trend-shell {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.trend-left-side {
+  position: relative;
+}
+
+.trend-right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  justify-content: center;
+  position: relative;
+}
+
+.trend-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 580px;
+}
+
+.trend-title {
+  color: #181e4b;
+  font-family: "Volkhov", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.trend-subtitle {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.trend-description {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.trend-progress-content {
+  display: flex;
+  gap: 80px;
+}
+
+.progress-number1,
+.progress-number2,
+.progress-number3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #525252;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.progress-outer-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 1px 4px 12px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.progress-inner-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 1px 4px 12px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+}
+
+.progress-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.progress-title {
+  color: #181e4b;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+@media screen and (max-width: 1440px) {
+  .trend-section-container {
+    max-width: 1100px;
+  }
+
+  .trend-shell {
+    width: 280px;
+    top: 30px;
+  }
+
+  .trend-main-image {
+    width: 480px;
+  }
+
+  .trend-right-side {
+    gap: 80px;
+  }
+
+  .trend-title {
+    font-size: 46px;
+  }
+
+  .trend-subtitle {
+    font-size: 16px;
+  }
+
+  .trend-description {
+    font-size: 14px;
+  }
+
+  .trend-progress-content {
+    gap: 70px;
+  }
+
+  .progress-number1,
+  .progress-number2,
+  .progress-number3 {
+    font-size: 32px;
+  }
+
+  .progress-outer-circle {
+    width: 140px;
+    height: 140px;
+    padding: 18px;
+  }
+
+  .progress-inner-circle {
+    width: 105px;
+    height: 105px;
+  }
+
+  .progress-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .trend-section-container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .trend-shell {
+    width: 200px;
+    top: 0px;
+  }
+
+  .trend-main-image {
+    width: 380px;
+  }
+
+  .trend-right-side {
+    gap: 60px;
+  }
+
+  .trend-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .trend-subtitle {
+    font-size: 12px;
+  }
+
+  .trend-description {
+    font-size: 12px;
+  }
+
+  .trend-progress-content {
+    gap: 28px;
+    justify-content: center;
+  }
+
+  .progress-number1,
+  .progress-number2,
+  .progress-number3 {
+    font-size: 24px;
+  }
+
+  .progress-outer-circle {
+    width: 120px;
+    height: 120px;
+    padding: 16px;
+  }
+
+  .progress-inner-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .progress-title {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .trend-shell {
+    width: 150px;
+  }
+
+  .trend-main-image {
+    width: 300px;
+  }
+
+  .trend-right-side {
+    gap: 60px;
+  }
+
+  .trend-title {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .trend-subtitle {
+    font-size: 10px;
+  }
+
+  .trend-description {
+    font-size: 12px;
+  }
+
+  .trend-right-side {
+    gap: 20px;
+  }
+
+  .trend-progress-content {
+    flex-direction: column;
+  }
+
+  .progress-number1,
+  .progress-number2,
+  .progress-number3 {
+    font-size: 24px;
+  }
+
+  .progress-outer-circle {
+    width: 120px;
+    height: 120px;
+    padding: 16px;
+  }
+
+  .progress-inner-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .progress-title {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,365 @@
+.romantic-tropical-land {
+  display: flex;
+  margin: 150px auto;
+  gap: 40px;
+  max-width: 1404px;
+  padding: 20px;
+}
+
+.rom-left-side {
+  position: relative;
+  margin-left: 150px;
+}
+
+.rom-right-side {
+  margin: auto;
+  max-width: 580px;
+}
+
+.rom-couple-image {
+  width: 475px;
+  height: 710px;
+  border-radius: 600px 600px 0 0;
+  border-right: var(--gradient, #a7327a) 2px solid;
+  border-top: var(--gradient, #a7327a) 2px solid;
+  padding: 20px 16px 0 0;
+}
+
+.rom-eclipse-1 {
+  position: absolute;
+  right: 360px;
+  bottom: 510px;
+  border-radius: 50%;
+}
+
+.rom-eclipse-2 {
+  position: absolute;
+  right: 410px;
+  top: 205px;
+  border-radius: 50%;
+}
+
+.rom-eclipse-3 {
+  position: absolute;
+  left: 40px;
+  bottom: 510px;
+  border-radius: 50%;
+}
+
+.rom-note {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin: 0;
+}
+
+.rom-title {
+  color: #181e4b;
+  font-family: "Volkhov", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  margin: 0;
+}
+
+.rom-description {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
+
+.rom-btn {
+  display: flex;
+  max-width: 190px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #df6951;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+.rom-vertical-text {
+  color: #000;
+  transform: rotate(-90deg);
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  opacity: 0.1;
+  min-width: 600px;
+  position: absolute;
+  bottom: 265px;
+  right: 215px;
+}
+
+@media screen and (max-width: 1024px) {
+  .rom-description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .rom-left-side {
+    margin-left: 100px;
+  }
+
+  .rom-eclipse-1 {
+    width: 135px;
+    right: 225px;
+    bottom: 370px;
+  }
+
+  .rom-eclipse-2 {
+    width: 210px;
+    right: 255px;
+    top: 85px;
+  }
+
+  .rom-eclipse-3 {
+    width: 160px;
+    bottom: 340px;
+    left: 40px;
+  }
+
+  .rom-vertical-text {
+    min-width: 450px;
+    font-size: 36px;
+    right: 100px;
+    bottom: 195px;
+  }
+
+  .rom-btn {
+    max-width: 140px;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .romantic-tropical-land {
+    min-height: 500px;
+  }
+
+  .rom-couple-image {
+    width: 300px;
+    height: 450px;
+    padding: 12px 8px 0 0;
+  }
+
+  .rom-right-side {
+    max-width: 450px;
+    gap: 20px;
+  }
+
+  .rom-note {
+    font-size: 14px;
+  }
+
+  .rom-title {
+    font-size: 38px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .romantic-tropical-land {
+    min-height: 500px;
+  }
+
+  .rom-couple-image {
+    width: 250px;
+    height: 385px;
+    padding: 7px 10px 0 0;
+  }
+
+  .rom-right-side {
+    max-width: 400px;
+    gap: 20px;
+  }
+
+  .rom-note {
+    font-size: 14px;
+  }
+
+  .rom-title {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .rom-description {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .rom-left-side {
+    margin-left: 100px;
+  }
+
+  .rom-eclipse-1 {
+    width: 125px;
+    right: 175px;
+    bottom: 370px;
+  }
+
+  .rom-eclipse-2 {
+    width: 200px;
+    right: 205px;
+    top: 85px;
+  }
+
+  .rom-eclipse-3 {
+    width: 150px;
+    bottom: 350px;
+    left: 30px;
+  }
+
+  .rom-vertical-text {
+    min-width: 360px;
+    font-size: 30px;
+    right: 95px;
+    bottom: 215px;
+  }
+
+  .rom-btn {
+    max-width: 140px;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .romantic-tropical-land {
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .rom-right-side {
+    max-width: 370px;
+  }
+
+  .rom-left-side {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+  }
+
+  .rom-note {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .rom-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: 40px;
+  }
+
+  .rom-description {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .rom-btn {
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .rom-eclipse-1 {
+    width: 125px;
+    right: 210px;
+    bottom: 280px;
+  }
+
+  .rom-eclipse-2 {
+    width: 200px;
+    right: 225px;
+    top: 100px;
+  }
+
+  .rom-eclipse-3 {
+    width: 150px;
+    bottom: 270px;
+    left: 40px;
+  }
+
+  .rom-vertical-text {
+    font-size: 28px;
+    right: 115px;
+    bottom: 140px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .rom-right-side {
+    max-width: 370px;
+  }
+
+  .rom-couple-image {
+    width: 180px;
+    height: 290px;
+    padding: 8px 5px 0 0;
+  }
+
+  .rom-note {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .rom-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: 40px;
+  }
+
+  .rom-description {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .rom-btn {
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .rom-eclipse-1 {
+    width: 105px;
+    right: 190px;
+    bottom: 225px;
+  }
+
+  .rom-eclipse-2 {
+    width: 150px;
+    right: 205px;
+    top: 70px;
+  }
+
+  .rom-eclipse-3 {
+    width: 130px;
+    bottom: 195px;
+    left: 70px;
+  }
+
+  .rom-vertical-text {
+    font-size: 22px;
+    right: 75px;
+    bottom: 140px;
+  }
+}

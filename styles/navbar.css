@@ -1,0 +1,158 @@
+.navbar-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  max-width: 1920px;
+  margin: 0;
+}
+
+.travel {
+  color: #181e4b;
+  font-family: "Volkhov", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.travel-navbar-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transform: rotate(-7deg);
+}
+
+.navbar-section-mobile {
+  display: none;
+}
+
+.navbar {
+  list-style: none;
+  font-family: "Volkhov", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar-contents-middle {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  gap: 50px;
+}
+
+.navbar-links {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-travel {
+  font-family: "Volkhov", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: center;
+  color: #fff;
+}
+
+.navbar-button {
+  background-color: #df6951;
+  max-width: 150px;
+  min-width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  filter: drop-shadow(0px 20px 35px rgba(223, 105, 81, 0.15));
+}
+
+.dropping {
+  position: relative;
+}
+
+.dropping img {
+  position: absolute;
+  display: none;
+  top: 5px;
+  left: -25px;
+  border-radius: 15px;
+}
+
+.dropbox {
+  list-style: none;
+  display: none;
+  position: absolute;
+  gap: 15px;
+  padding-top: 50px;
+  min-width: max-content;
+}
+
+.navbar-service-links {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.dropdown:hover .dropbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown:hover .dropping img {
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-contents-middle {
+    font-size: 16px;
+    gap: 20px;
+  }
+
+  .navbar-button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .travel {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .travel-navbar-logo {
+    left: 45%;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-section {
+    display: none;
+  }
+
+  .navbar-section-mobile {
+    display: block;
+  }
+
+  .navbar-contents-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 22px;
+    list-style: none;
+    margin-left: 10%;
+  }
+
+  .navbar-button {
+    font-size: 18px;
+  }
+
+  .travel-navbar-logo {
+    left: 40%;
+  }
+}

@@ -1,0 +1,190 @@
+.banner-container {
+  display: flex;
+}
+
+.main-title-wrapper {
+  position: relative;
+}
+
+.banner-card {
+  min-width: 50%;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #ffefec;
+  font-family: "Poppins", "sans-serif";
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-bg-img {
+  min-width: 100%;
+  max-width: 960px;
+  max-height: 340px;
+  object-fit: cover;
+  position: absolute;
+  margin: auto;
+}
+
+.banner-card-tag {
+  position: absolute;
+  top: 0;
+  margin-top: 80px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #ffefec;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.banner-line {
+  position: absolute;
+  right: 0;
+  padding: 0 auto;
+}
+
+.banner-main-title {
+  font-family: "sans-serif";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.banner-button {
+  width: 180px;
+  height: 55px;
+  margin: 10px auto;
+  margin-top: 40px;
+  display: grid;
+  place-items: center;
+  color: inherit;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Poppins";
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.banner-section {
+  background-image: url("../images/liberty.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-position-x: 60%;
+}
+
+.banner-section-outer {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.banner-section-paragraph {
+  position: relative;
+}
+
+.banner-section-paragraph p {
+  color: #fff;
+  font-family: "Volkhov", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.banner-section-line {
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-main-title {
+    font-size: 40px;
+  }
+
+  .banner-card,
+  .banner-bg-img {
+    height: 220px;
+  }
+
+  .banner-card {
+    padding: auto 0;
+  }
+
+  .banner-card-tag {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .banner-button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-main-title {
+    font-size: 24px;
+  }
+
+  .banner-card-tag {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-section-outer {
+    height: 300px;
+  }
+
+  .banner-section-paragraph p {
+    font-size: 40px;
+    font-weight: 560;
+  }
+
+  .banner-section-line img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-section-outer {
+    height: 200px;
+  }
+
+  .banner-section-paragraph p {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .banner-section-line img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner-section-outer {
+    height: 100px;
+  }
+
+  .banner-section-paragraph p {
+    font-size: 15px;
+    font-weight: 220;
+  }
+
+  .banner-section-line img {
+    width: 100px;
+  }
+}

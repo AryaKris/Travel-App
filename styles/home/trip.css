@@ -1,0 +1,225 @@
+.container-book-trip {
+  text-align: left;
+  margin: 50px auto;
+  display: flex;
+  padding: 0 50px;
+}
+
+.div-book-trip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.div-book-trip-padding {
+  padding-left: 10px;
+}
+
+.div-book-trip-content {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.div-book-trip-image {
+  flex-basis: 50%;
+  overflow: hidden;
+}
+
+.book-trip {
+  justify-content: center;
+  align-items: center;
+}
+
+.div-trip-to-hawaii {
+  position: absolute;
+  top: 332px;
+  left: 200px;
+  height: auto;
+  width: 100%;
+}
+
+.trip-to-hawaii-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #5e6282;
+  padding-left: 10px;
+}
+
+.trip-to-hawaii-img-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.trip-to-hawaii-icons {
+  padding: 10px;
+}
+
+.trip-to-hawaii-icons-heart {
+  left: 419px;
+  position: absolute;
+  top: 448px;
+}
+
+.trip-to-hawaii-rectangle-small-img {
+  position: absolute;
+  top: 315px;
+  left: 260px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .imgIllustration {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-book-trip {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-book-trip-content {
+    flex-basis: 100%;
+  }
+
+  .div-book-trip-image {
+    flex-basis: 100%;
+  }
+
+  .service-mainHeading {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .trip-to-hawaii-rectangle-small-img {
+    position: absolute;
+    top: 217px;
+    left: 129px;
+    width: 75%;
+    height: auto;
+  }
+
+  .container-book-trip {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-book-trip-content {
+    flex-basis: 100%;
+  }
+
+  .div-book-trip-image {
+    flex-basis: 100%;
+  }
+
+  .trip-to-hawaii-icons-heart {
+    left: 250px;
+    position: absolute;
+    top: 325px;
+  }
+
+  .imgIllustration-background-flight {
+    position: absolute;
+    top: 34px;
+    left: 170px;
+    z-index: -1;
+    width: 74%;
+    height: auto;
+  }
+
+  .imgIllustration-background-square {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 75%;
+    height: auto;
+  }
+
+  .service-mainHeading {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .div-book-trip-image {
+    flex-basis: 100%;
+  }
+
+  .div-book-trip-content {
+    flex-basis: 100%;
+  }
+
+  .trip-to-hawaii-rectangle-small-img {
+    position: absolute;
+    top: 171px;
+    left: 144px;
+    width: 70%;
+  }
+
+  .div-trip-to-hawaii {
+    position: absolute;
+    top: 165px;
+    left: 56px;
+    height: auto;
+    width: 100%;
+  }
+
+  .div-trip-to-hawaii-small-building {
+    height: 50px;
+    top: 96px;
+    position: absolute;
+    left: -12px;
+  }
+
+  .trip-to-hawaii-icons {
+    padding: 2px;
+  }
+
+  .trip-to-hawaii-icons-heart {
+    left: 236px;
+    position: absolute;
+    top: 258px;
+  }
+
+  .imgIllustration-background-square {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 85%;
+    height: auto;
+  }
+
+  .imgIllustration-background-building {
+    position: absolute;
+    top: 76px;
+    left: 63px;
+    width: 50%;
+    height: auto;
+  }
+
+  .imgIllustration-background-flight {
+    position: absolute;
+    top: 3px;
+    left: 160px;
+    z-index: -1;
+    width: 70%;
+    height: auto;
+  }
+
+  .imgIllustration-background-ellips-blue {
+    opacity: 0.3;
+    width: 100%;
+    height: auto;
+  }
+}

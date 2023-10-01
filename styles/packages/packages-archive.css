@@ -1,0 +1,6 @@
+/* COMMON STYLES */
+@import "../../styles/reset.css";
+@import "../../styles/footer.css";
+
+/* PACKAGE ONLY STYLES */
+@import "./hero.css";

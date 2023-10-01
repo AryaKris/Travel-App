@@ -1,0 +1,108 @@
+.tour-boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  margin: auto;
+}
+
+.tour-packages-section {
+  margin: 100px auto;
+  padding: 0 50px;
+}
+
+.div-section-container {
+  display: flex;
+  gap: 50px;
+  margin: auto;
+  justify-content: center;
+}
+
+.div-tour-content-flex {
+  display: flex;
+}
+
+.div-tour-content-flex-justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-tour-text {
+  text-align: justify;
+  max-width: 350px;
+}
+.div-tour-justify-content-right {
+  justify-content: right;
+}
+.tour-boxes-container .content {
+  padding: 3rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  font-weight: 100;
+  color: #5e6282;
+}
+
+.amount-text-red {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+.amount-text {
+  color: #7d7d7d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  padding-left: 15px;
+}
+
+.button-explore-now {
+  background-color: #df6951;
+  border: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.tour-parent-div {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.tour-parent-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.tour-child-image {
+  position: absolute;
+  top: 260px;
+  left: 15px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .div-section-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tour-packages-section {
+    width: 100%;
+  }
+}

@@ -1,0 +1,230 @@
+.about-hero-section {
+  max-width: 1920px;
+  min-height: 760px;
+  margin: auto;
+  padding: 20px;
+  background-image: url("../../images/about-us-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-navbar {
+  max-width: 1440px;
+}
+
+.about-navbar-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.about-nav-logo {
+  color: #fff;
+  font-family: "Volkhov", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.about-nav-contents {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.about-nav-right {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  color: #fff;
+}
+
+.about-nav-left {
+  position: relative;
+}
+
+.about-nav-left img {
+  position: absolute;
+  left: 30px;
+  top: 25px;
+}
+
+.about-nav-elements {
+  display: flex;
+  gap: 50px;
+}
+
+.about-dropdown-contents {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.about-nav-box {
+  position: absolute;
+  visibility: hidden;
+}
+
+.about-dropdown {
+  position: relative;
+}
+
+.about-dropdown-list {
+  list-style: none;
+  display: none;
+  position: absolute;
+  gap: 15px;
+  min-width: max-content;
+  padding: 45px 15px;
+}
+
+.about-nav-services:hover .about-dropdown-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-nav-services:hover .about-nav-box {
+  visibility: visible;
+}
+
+.about-dropdown-contents:hover {
+  color: #e4dada;
+}
+
+.about-btn {
+  background-color: #df6951;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  background-color: #db553a;
+}
+
+.about-hero-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 700px;
+}
+
+.about-subtitle {
+  color: #ffefec;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.about-title {
+  color: #fff;
+  font-family: "YesterYear", sans-serif;
+  font-size: 158px;
+  font-weight: 400;
+  line-height: 220px;
+}
+
+.aboutpromo {
+  display: flex;
+  gap: 18px;
+  max-width: 1235px;
+  margin: 100px auto 150px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-nav-logo {
+    font-size: 24px;
+  }
+
+  .about-nav-contents {
+    font-size: 14px;
+  }
+
+  .about-nav-right {
+    gap: 50px;
+  }
+
+  .about-nav-left img {
+    left: 25px;
+    top: 20px;
+    width: 70px;
+  }
+
+  .about-nav-elements {
+    display: flex;
+    gap: 40px;
+  }
+
+  .about-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .about-subtitle {
+    font-size: 14px;
+  }
+
+  .about-title {
+    font-size: 120px;
+    line-height: 170px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-navbar {
+    max-width: 1440px;
+  }
+
+  .about-navbar-list {
+    flex-direction: column;
+  }
+
+  .about-nav-elements {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-nav-right {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .about-hero-heading {
+    min-height: 400px;
+  }
+
+  .about-subtitle {
+    font-size: 10px;
+  }
+
+  .about-title {
+    font-size: 70px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .about-nav-right {
+    position: relative;
+  }
+
+  .about-btn {
+    position: absolute;
+    right: 0px;
+    bottom: 140px;
+  }
+}

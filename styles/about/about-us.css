@@ -1,0 +1,10 @@
+/* COMMON STYLES */
+@import "../reset.css";
+@import "../footer.css";
+
+/* ABOUT ONLY STYLES */
+@import "./hero.css";
+@import "./promotion.css";
+@import "./wonderlust.css";
+@import "./trend.css";
+@import "./packages.css";

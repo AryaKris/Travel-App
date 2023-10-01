@@ -1,190 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Tour and Travel</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@400;500;700&family=Sora:wght@200;300;800&family=Manrope:wght@500;700&family=Volkhov:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="root">
-      <main class="app">
-        <section class="navbar-section">
-          <nav>
-            <ul class="navbar">
-              <div class="navbar-image-section">
-                <li class="navbar-travel">Travel</li>
-                <img src="images/app-logo-arrow.png" alt="navbar-arrow" />
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:wght@400;500;700&family=Sora:wght@200;300;800&family=Manrope:wght@500;700&family=Volkhov:wght@400;700&display=swap"
+    rel="stylesheet" />
 
-              <div class="navbar-contents-middle">
-                <li class="navbar-contents">
-                  <a href="index.html" class="navbar-links">Home</a>
-                </li>
-                <li class="navbar-contents">
-                  <a href="about-us.html" class="navbar-links">About</a>
-                </li>
-                <li class="navbar-contents dropdown">
-                  <a href="#" class="navbar-links">Services</a>
-                  <ul class="dropping">
-                    <img src="images/union-image.png" alt="square-box" />
-                    <div class="dropbox">
-                      <li class="navbar-services-contents">
-                        <a href="#" class="navbar-service-links"
-                          >Honeymoon Packages</a
-                        >
-                      </li>
-                      <li class="navbar-services-contents">
-                        <a href="#" class="navbar-service-links"
-                          >Tours Packages</a
-                        >
-                      </li>
-                      <li class="navbar-services-contents">
-                        <a href="#" class="navbar-service-links"
-                          >Musical Events</a
-                        >
-                      </li>
-                      <li class="navbar-services-contents">
-                        <a href="#" class="navbar-service-links"
-                          >Build Packages</a
-                        >
-                      </li>
-                    </div>
-                  </ul>
-                </li>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Tour and Travel</title>
 
-                <li class="navbar-contents">
-                  <a href="#" class="navbar-links">Upcoming Packages</a>
-                </li>
-              </div>
-              <button class="navbar-button">Get in Touch</button>
-            </ul>
-          </nav>
-        </section>
-        <section class="navbar-section-mobile">
-          <nav>
-            <ul class="navbar">
-              <div class="navbar-image-section">
-                <li class="navbar-travel">Travel</li>
-                <img src="images/app-logo-arrow.png" alt="navbar-arrow" />
-              </div>
+</head>
 
-              <button class="navbar-button">Get in Touch</button>
-            </ul>
+<body>
+  <main>
+    <!-- NAVBAR ================================================================================================================ -->
+    <section class="hero-section">
+      <div class="hero-wrapper">
+        <nav class="navbar-section">
+          <ul class="navbar">
+            <div class="navbar-image-section">
+              <li class="navbar-travel">Travel</li>
+              <li>
+                <svg class="navbar-arrow" xmlns="http://www.w3.org/2000/svg" width="99" height="39" viewBox="0 0 99 39"
+                  fill="none">
+                  <g clip-path="url(#clip0_1_1004)">
+                    <path
+                      d="M0.000328518 15.1231C5.57738 23.1056 29.8417 31.0513 46.1624 30.5526C63.8034 30.0535 73.4639 26.563 92.2715 13.7276C92.2168 15.1329 92.0511 16.2766 92.078 17.3198C92.0586 18.51 92.0501 19.7684 92.3019 20.9155C92.3561 21.2561 93.0635 21.7722 93.481 21.7757C93.8985 21.7791 94.5005 21.1946 94.582 20.8325C95.2824 17.3692 95.8473 13.9275 96.4691 10.4068C96.6348 9.26314 96.0983 8.51041 94.8919 8.35296C90.313 7.96331 85.7234 7.50554 81.0875 7.19478C80.0384 7.15201 78.8616 7.61835 77.5061 7.83378C79.056 10.5903 81.4419 9.86195 83.3233 10.3311C85.2832 10.8577 87.3246 11.0221 89.8267 11.4624C84.8072 16.1708 79.4926 19.4595 73.6984 21.9167C52.4899 31.0135 31.42 29.6133 10.675 20.2005C7.97516 18.9535 5.43535 17.4018 2.79245 16.076C1.99276 15.8539 1.26082 15.6211 0.000328518 15.1231Z"
+                      fill="#DF6951" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_1004">
+                      <rect width="96.1304" height="23.346" fill="white"
+                        transform="matrix(0.987606 -0.156951 -0.156951 -0.987606 3.66406 38.1797)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+            </div>
+
+            <!-- NAVBAR MENU ======================== -->
             <div class="navbar-contents-middle">
-              <li class="navbar-contents">
-                <a href="index.html" class="navbar-links">Home</a>
-              </li>
-              <li class="navbar-contents">
-                <a href="about-us.html" class="navbar-links">About</a>
-              </li>
-              <li class="navbar-contents dropdown">
-                <a href="#" class="navbar-links">Services</a>
+              <li class="navbar-contents"><a href="/" class="navbar-links">Home</a></li>
+              <li class="navbar-contents"><a href="/pages/about-us.html" class="navbar-links">About</a></li>
+              <li class="navbar-contents dropdown"><a href="#" class="navbar-links">Services</a>
+
+                <!-- NAV BUBBLE ======================== -->
                 <ul class="dropping">
                   <img src="images/union-image.png" alt="square-box" />
+
+                  <!-- prettier-ignore -->
                   <div class="dropbox">
-                    <li class="navbar-services-contents">
-                      <a href="#" class="navbar-service-links"
-                        >Honeymoon Packages</a
-                      >
-                    </li>
-                    <li class="navbar-services-contents">
-                      <a href="#" class="navbar-service-links"
-                        >Tours Packages</a
-                      >
-                    </li>
-                    <li class="navbar-services-contents">
-                      <a href="#" class="navbar-service-links"
-                        >Musical Events</a
-                      >
-                    </li>
-                    <li class="navbar-services-contents">
-                      <a href="#" class="navbar-service-links"
-                        >Build Packages</a
-                      >
-                    </li>
+                    <li><a href="#" class="navbar-service-links">HoneymoonPackage</a></li>
+                    <li><a href="#" class="navbar-service-links">Tours Packages</a></li>
+                    <li><a href="#" class="navbar-service-links">Musical Events</a></li>
+                    <li><a href="#" class="navbar-service-links">Build Packages</a></li>
                   </div>
                 </ul>
               </li>
 
               <li class="navbar-contents">
-                <a href="#" class="navbar-links">Upcoming Packages</a>
+                <a href="pages/packages-archive.html" class="navbar-links">Upcoming Packages</a>
               </li>
             </div>
-          </nav>
-        </section>
+            <button class="navbar-button">Get in Touch</button>
+          </ul>
+        </nav>
+
+        <!-- NAV MOBILE========================-->
+        <nav class="navbar-section-mobile">
+          <ul class="navbar">
+            <div class="navbar-image-section">
+              <li class="navbar-travel">Travel</li>
+              <img src="images/app-logo-arrow.png" alt="navbar-arrow" />
+            </div>
+            <button class="navbar-button">Get in Touch</button>
+          </ul>
+
+          <!-- prettier-ignore -->
+          <div class="navbar-contents-middle">
+            <li class="navbar-contents"> <a href="index.html" class="navbar-links">Home</a> </li>
+            <li class="navbar-contents"> <a href="pages/about-us.html" class="navbar-links">About</a> </li>
+            <li class="navbar-contents dropdown"> <a href="#" class="navbar-links">Services</a>
+
+              <ul class="dropping">
+                <img src="images/union-image.png" alt="square-box" />
+                <div class="dropbox">
+                  <li><a href="#" class="navbar-service-links">Honeymoon Packages</a></li>
+                  <li><a href="#" class="navbar-service-links">Tours Packages</a></li>
+                  <li><a href="#" class="navbar-service-links">Musical Events</a></li>
+                  <li><a href="#" class="navbar-service-links">Build Packages</a></li>
+                </div>
+              </ul>
+            </li>
+
+            <li class="navbar-contents">
+              <a href="#" class="navbar-links">Upcoming Packages</a>
+            </li>
+          </div>
+        </nav>
+
+        <!-- HERO ================================================================================================================ -->
         <div class="hero-content">
-          <svg
-            class="hero-vector"
-            xmlns="http://www.w3.org/2000/svg"
-            width="84"
-            height="18"
-            viewBox="0 0 84 18"
-            fill="none"
-          >
+          <svg class="hero-vector" xmlns="http://www.w3.org/2000/svg" width="84" height="18" viewBox="0 0 84 18"
+            fill="none">
             <path
               d="M3 16.6711L8.96668 4.73778C9.7367 3.19773 11.9344 3.19773 12.7045 4.73778L16.8022 12.9334C17.5723 14.4734 19.77 14.4734 20.54 12.9334L24.6378 4.73778C25.4078 3.19773 27.6056 3.19773 28.3756 4.73778L32.4734 12.9334C33.2434 14.4734 35.4411 14.4734 36.2112 12.9334L40.3089 4.73778C41.079 3.19773 43.2767 3.19773 44.0467 4.73778L48.1445 12.9334C48.9145 14.4734 51.1123 14.4734 51.8823 12.9334L55.9801 4.73778C56.7501 3.19773 58.9478 3.19773 59.7179 4.73778L63.8156 12.9334C64.5857 14.4734 66.7834 14.4734 67.5534 12.9334L71.6512 4.73778C72.4212 3.19773 74.619 3.19773 75.389 4.73778L81.3557 16.6711"
-              stroke="#DF6951"
-              stroke-width="5.22371"
-            />
+              stroke="#DF6951" stroke-width="5.22371" />
           </svg>
-          <div class="hero-slogan">
-            <p>No matter where you’re going to, we’ll take you there</p>
-          </div>
+
+          <p class="hero-slogan">No matter where you’re going to, we’ll take you there</p>
+
+          <!-- HERO FILTER ======================== -->
           <div class="hero-search-tools">
             <span class="hero-tools">Where to?</span>
             <span class="hero-rectangle"></span>
+
             <span>
               <span class="hero-tools">Travel Type</span>
-              <svg
-                class="downarrow"
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="8"
-                viewBox="0 0 14 8"
-                fill="none"
-              >
-                <path
-                  d="M1 1L7 7L13 1"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
+              <svg class="downarrow" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
+                fill="none">
+                <path d="M1 1L7 7L13 1" stroke="white" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
               </svg>
             </span>
+
             <span class="hero-rectangle"></span>
+
             <span>
               <span class="hero-tools">Duration</span>
-              <svg
-                class="downarrow"
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="8"
-                viewBox="0 0 14 8"
-                fill="none"
-              >
-                <path
-                  d="M1 1L7 7L13 1"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
+              <svg class="downarrow" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
+                fill="none">
+                <path d="M1 1L7 7L13 1" stroke="white" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
               </svg>
             </span>
+
             <button class="hero-submit-button">Submit</button>
           </div>
+
+          <!-- HERO CONTEXT ======================== -->
           <div class="hero-context-bottom">
             <div class="clients-container">
               <img src="./images/hero_client_1.png" class="hero-client-img1" />
@@ -193,110 +153,69 @@
               <img src="./images/hero_client_4.png" class="hero-client-img4" />
               <img src="./images/hero_client_5.png" class="hero-client-img5" />
               <img src="./images/hero_client_6.png" class="hero-client-img6" />
-              <svg
-                class="hero-client-img7"
-                xmlns="http://www.w3.org/2000/svg"
-                width="37"
-                height="37"
-                viewBox="0 0 37 37"
-                fill="none"
-              >
-                <circle
-                  cx="18.7876"
-                  cy="18.2505"
-                  r="16.9538"
-                  fill="#DF6951"
-                  stroke="white"
-                  stroke-width="2.08948"
-                />
+
+              <svg class="hero-client-img7" xmlns="http://www.w3.org/2000/svg" width="37" height="37"
+                viewBox="0 0 37 37" fill="none">
+                <circle cx="18.7876" cy="18.2505" r="16.9538" fill="#DF6951" stroke="white" stroke-width="2.08948" />
               </svg>
               <img class="hero-client-img8" src="./images/hero_plus_sign.png" />
             </div>
-            <div class="hero-client-context">
-              2,500 people booked Tommorowland Event in last 24 hours
-            </div>
-          </div>
-        </div>
-        <svg
-          class="hero-circles"
-          xmlns="http://www.w3.org/2000/svg"
-          width="390"
-          height="390"
-          viewBox="0 0 392 392"
-          fill="none"
-        >
-          <circle
-            cx="196"
-            cy="196"
-            r="194"
-            stroke="white"
-            stroke-dasharray="3 3"
-            border="1px dashed #FFF"
-          />
-          <circle
-            cx="196"
-            cy="196"
-            r="80"
-            stroke="white"
-            stroke-dasharray="3 3"
-          />
-          <text
-            id="hero-circles-text"
-            x="180"
-            y="190"
-            font-family="Poppins"
-            font-size="18px"
-            font-weight="300"
-            fill="white"
-          >
-            Scroll
-          </text>
-        </svg>
-      </main>
 
-      <section class="partners-section">
-        <div class="partners-logos-wrapper">
-          <img
-            class="partners-logo"
-            src="images/fly-emirates.png"
-            alt="Emirates"
-          />
-          <img class="partners-logo" src="images/trivago.png" alt="Trivago" />
-          <img class="partners-logo" src="images/airbnb.png" alt="airbnb" />
-          <img
-            class="partners-logo"
-            src="images/turkish-airlines.png"
-            alt="Turkish-Airlines"
-          />
-          <img class="partners-logo" src="images/swiss.png" alt="Swiss" />
+            <div class="hero-client-context"> 2,500 people booked Tommorowland Event in last 24 hours </div>
+          </div>
+
+          <!-- HERO CIRCLES ======================== -->
+          <svg class="hero-circles" xmlns="http://www.w3.org/2000/svg" width="390" height="390" viewBox="0 0 392 392"
+            fill="none">
+            <circle cx="196" cy="196" r="194" stroke="white" stroke-dasharray="3 3" border="1px dashed #FFF" />
+            <circle cx="196" cy="196" r="80" stroke="white" stroke-dasharray="3 3" />
+            <text id="hero-circles-text" x="180" y="190" font-family="Poppins" font-size="18px" font-weight="300"
+              fill="white">
+              Scroll
+            </text>
+          </svg>
         </div>
-      </section>
-      <!-- Best Services Section -->
-      <section class="services-container">
-        <header class="best-services">
-          <h4 class="services-text">CATEGORY</h4>
-          <h2 class="services-heading">We Offer Best Services</h2>
-        </header>
-        <div class="card-wrapper">
+      </div>
+    </section>
+
+    <!-- PARTNERS ================================================================================================================ -->
+    <section class="partners-section">
+      <div class="partners-logos-wrapper">
+        <img class="partners-logo" src="images/fly-emirates.png" alt="Emirates" />
+        <img class="partners-logo" src="images/trivago.png" alt="Trivago" />
+        <img class="partners-logo" src="images/airbnb.png" alt="airbnb" />
+        <img class="partners-logo" src="images/turkish-airlines.png" alt="Turkish-Airlines" />
+        <img class="partners-logo" src="images/swiss.png" alt="Swiss" />
+      </div>
+    </section>
+
+    <!-- SERVICES ================================================================================================================ -->
+    <section class="services-container">
+      <header class="best-services">
+        <h4 class="services-text">CATEGORY</h4>
+        <h2 class="services-heading">We Offer Best Services</h2>
+      </header>
+
+      <div class="card-wrapper">
+
         <div class="card-services">
           <div class="services-image">
             <img src="./images/tour-guide-1.png" alt="guided tours" />
           </div>
 
           <h4 class="serviceImage-heading">Guided Tours</h4>
-          <p class="service-content">
-            sunt qui repellat saepe quo velit aperiam id aliquam placeat.
-          </p>
+          <p class="service-content"> sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
         </div>
+
         <div class="card-services">
           <div class="services-image">
             <img src="./images/travelling-1.png" alt="traveling" />
           </div>
+
           <h4 class="serviceImage-heading">Best Flight Options</h4>
-          <p class="service-content">
-            sunt qui repellat saepe quo velit aperiam id aliquam placeat.
-          </p>
+          <p class="service-content">sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
         </div>
+
         <div class="card-services">
           <div class="services-image">
             <img src="./images/hands-1.png" alt="hands" />
@@ -306,621 +225,436 @@
             sunt qui repellat saepe quo velit aperiam id aliquam placeat.
           </p>
         </div>
+
         <div class="card-services">
           <div class="services-image">
             <img src="./images/medical-team-1.png" alt="medical-team" />
           </div>
           <h4 class="serviceImage-heading">Medical Insurance</h4>
-          <p class="service-content">
-            sunt qui repellat saepe quo velit aperiam id aliquam placeat.
-          </p>
+          <p class="service-content"> sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
         </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Best Services section ends here -->
 
-      <section class="europe-sightseeing">
-        <div class="sightseeing-container">
-          <div class="sightseeing-left-side">
-            <div class="sightseeing-heading">
-              <h3 class="sightseeing-note">PROMOTION</h3>
-              <h2 class="sightseeing-title">
-                We Provide You Best Europe Sightseeing Tours
-              </h2>
-            </div>
-            <p class="sightseeing-description">
-              Et labore harum non nobis ipsum eum molestias mollitia et corporis
-              praesentium a laudantium internos. Non quis eius quo eligendi
-              corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut
-              ducimus illum aut optio quibusdam!
-            </p>
-            <button class="sightseeing-btn">View Packages</button>
-            <div class="sightseeing-image-container">
-              <div class="sightseeing-image-container1">
-                <img
-                  class="sightseeing-images"
-                  src="images/europe-sightseeing-image1.png"
-                  alt="Big Ben"
-                />
-                <img
-                  class="sightseeing-images"
-                  src="images/europe-sightseeing-image2.png"
-                  alt="Deventer City"
-                />
-              </div>
-              <div class="sightseeing-image-container1">
-                <img
-                  class="sightseeing-images"
-                  src="images/europe-sightseeing-image3.png"
-                  alt="Rome Colosseum"
-                />
-                <img
-                  class="sightseeing-images"
-                  src="images/europe-sightseeing-image4.png"
-                  alt="Berlin Cathedral"
-                />
-              </div>
-            </div>
+    <!-- EUROPE  ================================================================================================================ -->
+    <section class="europe-sightseeing">
+      <div class="sightseeing-container">
+        <div class="sightseeing-left-side">
+          <div class="sightseeing-heading">
+            <h3 class="sightseeing-note">PROMOTION</h3>
+            <h2 class="sightseeing-title">
+              We Provide You Best Europe Sightseeing Tours
+            </h2>
           </div>
 
-          <div class="sightseeing-right-side">
-            <img
-              class="sightseeing-main-image"
-              src="images/europe-sightseeing-main-image.png"
-              alt="Eiffel Tower"
-            />
-            <p class="sightseeing-vertical-text">Breath Taking Views</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="banner-container">
-        <div class="banner-card">
-          <img class="banner-bg-img" src="images/explore-nature.png" alt="#" />
-          <h4 class="banner-card-tag">Promotion</h4>
-          <div class="main-title-wrapper">
-            <h1 class="banner-main-title">Explore Nature</h1>
-            <img
-              class="banner-line"
-              src="images/line-for-nature-img.png"
-              alt="#"
-            />
-            <button class="banner-button">View Packages</button>
-          </div>
-        </div>
-
-        <div class="banner-card">
-          <img class="banner-bg-img" src="images/explore-city.png" alt="#" />
-          <h4 class="banner-card-tag">Promotion</h4>
-          <div class="main-title-wrapper">
-            <h1 class="banner-main-title">Explore Cities</h1>
-            <img
-              class="banner-line"
-              src="images/line-for-city-img.png"
-              alt="#"
-            />
-            <button class="banner-button">View Packages</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="romantic-tropical-land">
-        <div class="rom-left-side">
-          <p class="rom-vertical-text">Honeymoon Packages</p>
-          <img
-            class="rom-couple-image"
-            src="images/romantic-couple.png"
-            alt=""
-          />
-          <img
-            class="rom-eclipse-1"
-            src="images/romantic-section-ellipse-1.png"
-            alt=""
-          />
-          <img
-            class="rom-eclipse-2"
-            src="images/romantic-section-ellipse-2.png"
-            alt=""
-          />
-          <img
-            class="rom-eclipse-3"
-            src="images/romantic-section-ellipse-3.png"
-            alt=""
-          />
-        </div>
-        <div class="rom-right-side">
-          <div class="rom-heading-container">
-            <h3 class="rom-note">HONEYMOON SPECIALS</h3>
-            <h2 class="rom-title">Our Romantic Tropical Destinations</h2>
-          </div>
-          <p class="rom-description">
+          <p class="sightseeing-description">
             Et labore harum non nobis ipsum eum molestias mollitia et corporis
             praesentium a laudantium internos. Non quis eius quo eligendi
             corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut
             ducimus illum aut optio quibusdam!
           </p>
-          <button class="rom-btn">View packages</button>
+          <button class="sightseeing-btn">View Packages</button>
+
+          <div class="sightseeing-image-container">
+            <div class="sightseeing-image-container1">
+              <img class="sightseeing-images" src="images/europe-sightseeing-image1.png" alt="Big Ben" />
+              <img class="sightseeing-images" src="images/europe-sightseeing-image2.png" alt="Deventer City" />
+            </div>
+
+            <div class="sightseeing-image-container1">
+              <img class="sightseeing-images" src="images/europe-sightseeing-image3.png" alt="Rome Colosseum" />
+              <img class="sightseeing-images" src="images/europe-sightseeing-image4.png" alt="Berlin Cathedral" />
+            </div>
+          </div>
         </div>
-      </section>
-      <!-- Trip Booking Guide Start -->
-      <section class="container-book-trip">
-        <div class="div-book-trip-container">
-          <div class="div-book-trip-content">
-            <h4 class="services-text">Fast & Easy</h4>
-            <h2 class="service-mainHeading">
-              Get Your Favorite Resort Bookings
-            </h2>
-            <ul>
-              <li class="img-icon-container">
-                <div class="image-group">
-                  <img
-                    src="./images/yellow-icon.png"
-                    alt="icon"
-                    class="img-icon"
-                  />
+
+        <div class="sightseeing-right-side">
+          <img class="sightseeing-main-image" src="images/europe-sightseeing-main-image.png" alt="Eiffel Tower" />
+          <p class="sightseeing-vertical-text">Breath Taking Views</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER  ================================================================================================================ -->
+    <section class="banner-container">
+      <div class="banner-card">
+        <img class="banner-bg-img" src="images/explore-nature.png" alt="#" />
+        <h4 class="banner-card-tag">Promotion</h4>
+        <div class="main-title-wrapper">
+          <h1 class="banner-main-title">Explore Nature</h1>
+          <img class="banner-line" src="images/line-for-nature-img.png" alt="#" />
+          <button class="banner-button">View Packages</button>
+        </div>
+      </div>
+
+      <div class="banner-card">
+        <img class="banner-bg-img" src="images/explore-city.png" alt="#" />
+        <h4 class="banner-card-tag">Promotion</h4>
+        <div class="main-title-wrapper">
+          <h1 class="banner-main-title">Explore Cities</h1>
+          <img class="banner-line" src="images/line-for-city-img.png" alt="#" />
+          <button class="banner-button">View Packages</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROMANTIC  ================================================================================================================ -->
+    <section class="romantic-tropical-land">
+      <div class="rom-left-side">
+        <p class="rom-vertical-text">Honeymoon Packages</p>
+        <img class="rom-couple-image" src="images/romantic-couple.png" alt="" />
+        <img class="rom-eclipse-1" src="images/romantic-section-ellipse-1.png" alt="" />
+        <img class="rom-eclipse-2" src="images/romantic-section-ellipse-2.png" alt="" />
+        <img class="rom-eclipse-3" src="images/romantic-section-ellipse-3.png" alt="" />
+      </div>
+      <div class="rom-right-side">
+        <div class="rom-heading-container">
+          <h3 class="rom-note">HONEYMOON SPECIALS</h3>
+          <h2 class="rom-title">Our Romantic Tropical Destinations</h2>
+        </div>
+        <p class="rom-description">
+          Et labore harum non nobis ipsum eum molestias mollitia et corporis
+          praesentium a laudantium internos. Non quis eius quo eligendi
+          corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut
+          ducimus illum aut optio quibusdam!
+        </p>
+        <button class="rom-btn">View packages</button>
+      </div>
+    </section>
+
+    <!-- TRIP BOOKING  ================================================================================================================ -->
+    <section class="container-book-trip">
+      <div class="div-book-trip-container">
+        <div class="div-book-trip-content">
+          <h4 class="services-text">Fast & Easy</h4>
+          <h2 class="service-mainHeading"> Get Your Favorite Resort Bookings </h2>
+
+          <ul>
+            <li class="img-icon-container">
+              <div class="image-group"> <img src="./images/yellow-icon.png" alt="icon" class="img-icon" /> </div>
+              <div>
+                <div class="div-book-trip-padding">
+                  <span class="headingImg">Choose Destination</span><br />
+                  <span class="contentImg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor
+                    tempus.</span>
                 </div>
-                <div>
-                  <div class="div-book-trip-padding">
-                    <span class="headingImg">Choose Destination</span><br />
-                    <span class="contentImg"
-                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, tortor tempus.</span
-                    >
-                  </div>
+              </div>
+            </li>
+
+            <li class="img-icon-container">
+              <div class="image-group"> <img src="./images/orange-icon.png" alt="icon" class="img-icon" /> </div>
+              <div>
+                <div class="div-book-trip-padding">
+                  <span class="headingImg">Check Availability</span><br />
+                  <span class="contentImg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor
+                    tempus.</span>
                 </div>
-              </li>
-              <li class="img-icon-container">
-                <div class="image-group">
-                  <img
-                    src="./images/orange-icon.png"
-                    alt="icon"
-                    class="img-icon"
-                  />
+              </div>
+            </li>
+
+            <li class="img-icon-container">
+              <div class="image-group">
+                <img src="./images/blue-icon.png" alt="icon" class="img-icon" />
+              </div>
+
+              <div>
+                <div class="div-book-trip-padding">
+                  <span class="headingImg">Let's go</span><br />
+                  <span class="contentImg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor
+                    tempus.</span>
                 </div>
-                <div>
-                  <div class="div-book-trip-padding">
-                    <span class="headingImg">Check Availability</span><br />
-                    <span class="contentImg"
-                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, tortor tempus.</span
-                    >
-                  </div>
-                </div>
-              </li>
-              <li class="img-icon-container">
-                <div class="image-group">
-                  <img
-                    src="./images/blue-icon.png"
-                    alt="icon"
-                    class="img-icon"
-                  />
-                </div>
-                <div>
-                  <div class="div-book-trip-padding">
-                    <span class="headingImg">Let's go</span><br />
-                    <span class="contentImg"
-                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Urna, tortor tempus.</span
-                    >
-                  </div>
-                </div>
-              </li>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="div-book-trip-image">
+          <div class="trip-to-hawaii-img-container">
+            <img src="./images/ellipse-background.png" class="imgIllustration-background-ellips-blue"
+              alt="ellipse-background" />
+            <img src="./images/trip-hawaii.png" class="imgIllustration-background-square" alt="hawaii" />
+            <img src=".//images/trip-rome.png" class="trip-to-hawaii-rectangle-small-img" alt="rome" />
+            <img src="./images/flight-background.png" alt="flight" class="imgIllustration-background-flight" />
+            <img src="./images/heart.png" alt="heart" class="trip-to-hawaii-icons-heart" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BANNER | 2  ================================================================================================================ -->
+    <section class="banner-section">
+      <div class="banner-section-outer">
+        <div class="banner-section-paragraph">
+          <p> Let’s make your <br /> next holiday amazing </p>
+          <div class="banner-section-line"> <img src="images/Line-01.svg" alt="line" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOUR  ================================================================================================================ -->
+    <section class="tour-packages-section">
+      <div>
+        <h2 class="testimonial-title">TRENDY</h2>
+        <h1 class="testimonial-heading">Our Trending Tour Packages</h1>
+        <br />
+      </div>
+
+      <div class="tour-boxes-container">
+        <div class="div-section-container">
+          <div>
+            <div class="tour-parent-div">
+              <img src="./images/rectangle-swiss.png" alt="swiss" class="tour-parent-image" />
+              <img src="./images/ellipse-red.png" alt="red-ellipse" class="tour-child-image" />
+            </div>
+
+            <div class="content">
+              <div class="div-tour-content-flex-justify">
+                <p>
+                  <img src="./images/calendar-icon.png" alt="calendar" />
+                  <span>8 Days</span>
+                </p>
+                <p>
+                  <img src="./images/people-icon.png" alt="people" />
+                  <span>25 People Going</span>
+                </p>
+              </div>
+
+              <div class="div-tour-content-flex-justify">
+                <span class="headingImg"> Switzerland </span>
+                <span>
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                </span>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <img src="./images/ep_location.png" alt="location" />
+                <span>&nbsp;Europe</span>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <p class="amount-text-red">1,000 $</p>
+                <p class="amount-text">1,200 $</p>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <p class="div-tour-text">
+                  Nam exercitationem commodi et ducimus quia in dolore animi
+                  sit mollitia amet id quod eligendi. Et labore harum non
+                  nobis ipsum eum molestias mollitia et corporis praesentium a
+                  laudantium internos.
+                </p>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <input type="button" value="Explore Now" class="button-explore-now" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="tour-parent-div">
+              <img src="./images/rectangle-bird.png" alt="bird" class="tour-parent-image" />
+              <img src="./images/ellipse-green.png" alt="green-ellipse" class="tour-child-image" />
+            </div>
+
+            <div class="content">
+              <div class="div-tour-content-flex-justify">
+                <p>
+                  <img src="./images/calendar-icon.png" alt="calendar" />
+                  <span>8 Days</span>
+                </p>
+                <p>
+                  <img src="./images/people-icon.png" alt="people" />
+                  <span>30 People Going</span>
+                </p>
+              </div>
+
+              <div class="div-tour-content-flex-justify">
+                <span class="headingImg"> Amazon </span>
+                <span>
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                </span>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <img src="./images/ep_location.png" alt="location" />&nbsp;Brazil
+              </div>
+
+              <div class="div-tour-content-flex">
+                <p class="amount-text-red">1,223 $</p>
+                <p class="amount-text">1,200 $</p>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <p class="div-tour-text">
+                  Nam exercitationem commodi et ducimus quia in dolore animi
+                  sit mollitia amet id quod eligendi. Et labore harum non
+                  nobis ipsum eum molestias mollitia et corporis praesentium a
+                  laudantium internos.
+                </p>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <input type="button" value="Explore Now" class="button-explore-now" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="tour-parent-div">
+              <img src="./images/rectangle-giza.png" alt="giza" class="tour-parent-image" />
+              <img src="./images/ellipse-giza.png" alt="white-ellipse" class="tour-child-image" />
+            </div>
+
+            <div class="content">
+              <div class="div-tour-content-flex-justify">
+                <p>
+                  <img src="./images/calendar-icon.png" alt="calendar" />
+                  <span> 8 Days </span>
+                </p>
+
+                <p>
+                  <img src="./images/people-icon.png" alt="people" />
+                  <span>155 People Going</span>
+                </p>
+              </div>
+
+              <div class="div-tour-content-flex-justify">
+                <span class="headingImg"> Giza </span>
+
+                <span class="div-tour-justify-content-right">
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                  <img src="./images/bi_star-fill.png" alt="star" style="cursor: pointer" />
+                </span>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <img src="./images/ep_location.png" alt="location" />&nbsp;Egypt
+              </div>
+
+              <div class="div-tour-content-flex">
+                <p class="amount-text-red">1,200 $</p>
+                <p class="amount-text">1,200 $</p>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <p class="div-tour-text">
+                  Nam exercitationem commodi et ducimus quia in dolore animi
+                  sit mollitia amet id quod eligendi. Et labore harum non
+                  nobis ipsum eum molestias mollitia et corporis praesentium a
+                  laudantium internos.
+                </p>
+              </div>
+
+              <div class="div-tour-content-flex">
+                <input type="button" value="Explore Now" class="button-explore-now" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL  ================================================================================================================ -->
+    <section class="testimonial-section">
+      <div class="testimonial-intro">
+        <h2 class="testimonial-title">Promotion</h2>
+        <h1 class="testimonial-heading">
+          See What Our Clients Say <br />About Us
+        </h1>
+        <img alt="travel-accessories" src="images/Travel-img.png" class="travel-items" />
+        <img alt="profile-pic" src="images/pic-head1.webp" class="profile-pic" />
+      </div>
+
+      <div class="testimonials">
+        <img alt="big-double-quotes" src="images/double-quotes1.png" class="big-quotes" />
+        <p class="testimonial-para">
+          Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam
+          et recusandae molestiae sit iure unde aut voluptate quaerat. Id sunt
+          provident quo possimus impedit vel doloremque obcaecati qui ullam
+          consectetur et ipsum omnis.
+          <span><img alt="small-double-quotes" src="images/double-quotes2.png" class="small-quotes" /></span>
+        </p>
+
+        <p class="testimonial-author">Christine Beckam - Designer</p>
+        <img alt="navigation-arrowleft" src="images/navigation-image2-cropped.png" class="navigation-arrow2" />
+        <img alt="navigation-arrowright" src="images/navigation-image1-cropped.png" class="navigation-arrow1" />
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER  ================================================================================================================ -->
+  <footer class="footer-navlist">
+    <div class="footer-section">
+      <div class="footer-component footer-info">
+        <p class="travel">Travel</p>
+        <img src="images/app-logo-arrow.png" alt="navbar-arrow" class="travel-navbar-logo" />
+        <p class="travel-info">Travel helps companies </br> manage payments easily.</p>
+        <div class="footer-info-images">
+          <img src="images/linkedin.png" alt="linkedin-image" class="navbar-image" />
+          <img src="images/messenger.png" alt="messenger-image" class="navbar-image" />
+          <img src="images/twitter.png" alt="twitter-image" class="navbar-image" />
+          <img src="images/twoo.png" alt="twoo-image" class="navbar-image" />
+        </div>
+      </div>
+
+      <div class="footer-component company">
+        <ul class="company-list">
+          <li class="footer-head"><a href="#" class="footer-head-link">Company</a>
+            <ul class="company-list-items">
+              <li><a href="about-us.html" class="footer-links footer-links-company">About Us</a></li>
+              <li><a href="#" class="footer-links footer-links-company">Careers</a></li>
+              <li><a href="#" class="footer-links footer-links-company">Blog</a></li>
+              <li><a href="#" class="footer-links footer-links-company">Pricing</a></li>
             </ul>
-          </div>
-          <div class="div-book-trip-image">
-            <div class="trip-to-hawaii-img-container">
-              <img
-                src="./images/ellipse-background.png"
-                class="imgIllustration-background-ellips-blue"
-                alt="ellipse-background"
-              />
-              <img
-                src="./images/trip-hawaii.png"
-                class="imgIllustration-background-square"
-                alt="hawaii"
-              />
-              <img
-                src=".//images/trip-rome.png"
-                class="trip-to-hawaii-rectangle-small-img"
-                alt="rome"
-              />
-              <img
-                src="./images/flight-background.png"
-                alt="flight"
-                class="imgIllustration-background-flight"
-              />
-              <img
-                src="./images/heart.png"
-                alt="heart"
-                class="trip-to-hawaii-icons-heart"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Trip Booking Guide Ends -->
-      <section class="banner-section">
-        <div class="banner-section-outer">
-          
-            <div class="banner-section-paragraph">
-              <p>
-                Let’s make your <br />
-                next holiday amazing
-              </p>
-              <div class="banner-section-line">
-                <img src="images/Line-01.svg" alt="line" />
-              </div>
-            </div>
-           
-          
-        </div>
-      </section>
-      <!-- Tour-Guide Section Starts -->
-      <section class="tour-packages-section">
-        <div>
-          <h2 class="testimonial-title">TRENDY</h2>
-          <h1 class="testimonial-heading">Our Trending Tour Packages</h1>
-          <br />
-        </div>
-        <div class="tour-boxes-container">
-          <div class="div-section-container">
-            <section>
-              <div class="tour-parent-div">
-                <img
-                  src="./images/rectangle-swiss.png"
-                  alt="swiss"
-                  class="tour-parent-image"
-                />
-                <img
-                  src="./images/ellipse-red.png"
-                  alt="red-ellipse"
-                  class="tour-child-image"
-                />
-              </div>
-              <div class="content">
-                <div class="div-tour-content-flex-justify">
-                  <p>
-                    <img src="./images/calendar-icon.png" alt="calendar" /> 8
-                    Days
-                  </p>
-                  <p>
-                    <img src="./images/people-icon.png" alt="people" /> 25
-                    People Going
-                  </p>
-                </div>
-                <div class="div-tour-content-flex-justify">
-                  <span class="headingImg"> Switzerland </span>
-                  <span>
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                  </span>
-                </div>
-                <div class="div-tour-content-flex">
-                  <img
-                    src="./images/ep_location.png"
-                    alt="location"
-                  />&nbsp;Europe
-                </div>
-                <div class="div-tour-content-flex">
-                  <p class="amount-text-red">1,000 $</p>
-                  <p class="amount-text">1,200 $</p>
-                </div>
-                <div class="div-tour-content-flex">
-                  <p class="div-tour-text">
-                    Nam exercitationem commodi et ducimus quia in dolore animi
-                    sit mollitia amet id quod eligendi. Et labore harum non
-                    nobis ipsum eum molestias mollitia et corporis praesentium a
-                    laudantium internos.
-                  </p>
-                </div>
-                <div class="div-tour-content-flex">
-                  <input
-                    type="button"
-                    value="Explore Now"
-                    class="button-explore-now"
-                  />
-                </div>
-              </div>
-            </section>
-            <section>
-              <div class="tour-parent-div">
-                <img
-                  src="./images/rectangle-bird.png"
-                  alt="bird"
-                  class="tour-parent-image"
-                />
-                <img
-                  src="./images/ellipse-green.png"
-                  alt="green-ellipse"
-                  class="tour-child-image"
-                />
-              </div>
-              <div class="content">
-                <div class="div-tour-content-flex-justify">
-                  <p>
-                    <img src="./images/calendar-icon.png" alt="calendar" /> 8
-                    Days
-                  </p>
-                  <p>
-                    <img src="./images/people-icon.png" alt="people" /> 30
-                    People Going
-                  </p>
-                </div>
-                <div class="div-tour-content-flex-justify">
-                  <span class="headingImg"> Amazon </span>
-                  <span>
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                  </span>
-                </div>
-                <div class="div-tour-content-flex">
-                  <img
-                    src="./images/ep_location.png"
-                    alt="location"
-                  />&nbsp;Brazil
-                </div>
-                <div class="div-tour-content-flex">
-                  <p class="amount-text-red">1,223 $</p>
-                  <p class="amount-text">1,200 $</p>
-                </div>
-                <div class="div-tour-content-flex">
-                  <p class="div-tour-text">
-                    Nam exercitationem commodi et ducimus quia in dolore animi
-                    sit mollitia amet id quod eligendi. Et labore harum non
-                    nobis ipsum eum molestias mollitia et corporis praesentium a
-                    laudantium internos.
-                  </p>
-                </div>
-                <div class="div-tour-content-flex">
-                  <input
-                    type="button"
-                    value="Explore Now"
-                    class="button-explore-now"
-                  />
-                </div>
-              </div>
-            </section>
-            <section>
-              <div class="tour-parent-div">
-                <img
-                  src="./images/rectangle-giza.png"
-                  alt="giza"
-                  class="tour-parent-image"
-                />
-                <img
-                  src="./images/ellipse-giza.png"
-                  alt="white-ellipse"
-                  class="tour-child-image"
-                />
-              </div>
+          </li>
+        </ul>
+      </div>
 
-              <div class="content">
-                <div class="div-tour-content-flex-justify">
-                  <p>
-                    <img src="./images/calendar-icon.png" alt="calendar" /> 8
-                    Days
-                  </p>
-                  <p>
-                    <img src="./images/people-icon.png" alt="people" /> 155
-                    People Going
-                  </p>
-
-                  <p></p>
-                </div>
-
-                <div class="div-tour-content-flex-justify">
-                  <span class="headingImg"> Giza </span>
-                  <span class="div-tour-justify-content-right">
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                    <img
-                      src="./images/bi_star-fill.png"
-                      alt="star"
-                      style="cursor: pointer"
-                    />
-                  </span>
-                </div>
-                <div class="div-tour-content-flex">
-                  <img
-                    src="./images/ep_location.png"
-                    alt="location"
-                  />&nbsp;Egypt
-                </div>
-                <div class="div-tour-content-flex">
-                  <p class="amount-text-red">1,200 $</p>
-                  <p class="amount-text">1,200 $</p>
-                </div>
-                <div class="div-tour-content-flex">
-                  <p class="div-tour-text">
-                    Nam exercitationem commodi et ducimus quia in dolore animi
-                    sit mollitia amet id quod eligendi. Et labore harum non
-                    nobis ipsum eum molestias mollitia et corporis praesentium a
-                    laudantium internos.
-                  </p>
-                </div>
-                <div class="div-tour-content-flex">
-                  <input
-                    type="button"
-                    value="Explore Now"
-                    class="button-explore-now"
-                  />
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </section>
-      <!-- TourGuide Section Ends -->
-      <section class="testimonial-section">
-        <div class="testimonial-intro">
-          <h2 class="testimonial-title">Promotion</h2>
-          <h1 class="testimonial-heading">
-            See What Our Clients Say <br />About Us
-          </h1>
-          <img
-            alt="travel-accessories"
-            src="images/Travel-img.png"
-            class="travel-items"
-          />
-          <img
-            alt="profile-pic"
-            src="images/pic-head1.webp"
-            class="profile-pic"
-          />
-        </div>
-
-        <div class="testimonials">
-          <img
-            alt="big-double-quotes"
-            src="images/double-quotes1.png"
-            class="big-quotes"
-          />
-          <p class="testimonial-para">
-            Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam
-            et recusandae molestiae sit iure unde aut voluptate quaerat. Id sunt
-            provident quo possimus impedit vel doloremque obcaecati qui ullam
-            consectetur et ipsum omnis.<span
-              ><img
-                alt="small-double-quotes"
-                src="images/double-quotes2.png"
-                class="small-quotes"
-            /></span>
-          </p>
-
-          <p class="testimonial-author">Christine Beckam - Designer</p>
-          <img
-            alt="navigation-arrowleft"
-            src="images/navigation-image2-cropped.png"
-            class="navigation-arrow2"
-          />
-          <img
-            alt="navigation-arrowright"
-            src="images/navigation-image1-cropped.png"
-            class="navigation-arrow1"
-          />
-        </div>
-      </section>
-
-      <footer class="footer-navlist">
-        <div class="footer-section">
-          <div class="footer-component footer-info">
-            <p class="travel">Travel</p>
-            <img src="images/app-logo-arrow.png" alt="navbar-arrow"  class="travel-navbar-logo"/>
-            <p class="travel-info">Travel helps companies </br> manage payments easily.</p>
-            <div class="footer-info-images">
-              <img src="images/linkedin.png" alt="linkedin-image" class="navbar-image"/>
-              <img src="images/messenger.png" alt="messenger-image" class="navbar-image"/>  
-              <img src="images/twitter.png" alt="twitter-image" class="navbar-image"/>
-              <img src="images/twoo.png" alt="twoo-image" class="navbar-image"/>
-            </div>
-          </div>
-          <div class="footer-component company">
-            <ul class="company-list">
-              <li class="footer-head"><a href="#" class="footer-head-link">Company</a>
-                <ul class="company-list-items">
-                    <li><a href="about-us.html" class="footer-links footer-links-company">About Us</a></li>
-                    <li><a href="#" class="footer-links footer-links-company">Careers</a></li>
-                    <li><a href="#" class="footer-links footer-links-company">Blog</a></li>
-                    <li><a href="#" class="footer-links footer-links-company">Pricing</a></li>
-                </ul>
-              </li>
+      <div class="footer-component destinations">
+        <ul class="destination-list">
+          <li class="footer-head"><a href="#" class="footer-head-link">Destinations</a>
+            <ul class="destination-list-items">
+              <li><a href="#" class="footer-links footer-links-destination">Maldives</a></li>
+              <li><a href="#" class="footer-links footer-links-destination">Los Angelas</a></li>
+              <li><a href="#" class="footer-links footer-links-destination">Las Vegas</a></li>
+              <li><a href="#" class="footer-links footer-links-destination">torronto</a></li>
             </ul>
-          </div>
-          <div class="footer-component destinations">
-            <ul class="destination-list">
-              <li class="footer-head"><a href="#" class="footer-head-link">Destinations</a>
-                <ul class="destination-list-items">
-                  <li><a href="#" class="footer-links footer-links-destination">Maldives</a></li>
-                  <li><a href="#" class="footer-links footer-links-destination">Los Angelas</a></li>
-                  <li><a href="#" class="footer-links footer-links-destination">Las Vegas</a></li>
-                  <li><a href="#" class="footer-links footer-links-destination">torronto</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-component newsletter">
-            <h2 class="newsletter-invitation">Join Our Newsletter</h2>
-            <div class="email-button-container">
-              <input type="email" id="email-address" placeholder="Your email address" /> 
-              <button class="subscribe-button">Subscribe</button>
-            </div>
-            <p class="newsletter-info"><sup>*</sup>Will send you weekly updates for your better </br>tour packages.</p>
-          </div>
-        </div>
-        <div class="footer-ending">
-          <img src="images/footer-bg.png" alt="mountain" class="footer-img" />
-          <hr class="horizontal-line">
-          <p class="copyright-info">Copyright @ Xpro 2022. All Rights Reserved.</p>
-        </div>
-      </footer>
+          </li>
+        </ul>
+      </div>
 
+      <div class="footer-component newsletter">
+        <h2 class="newsletter-invitation">Join Our Newsletter</h2>
+        <div class="email-button-container">
+          <input type="email" id="email-address" placeholder="Your email address" />
+          <button class="subscribe-button">Subscribe</button>
+        </div>
+        <p class="newsletter-info"><sup>*</sup>Will send you weekly updates for your better </br>tour packages.</p>
+      </div>
     </div>
 
-    <script src="index.js"></script>
-  </body>
+    <!-- COPYRIGHT ======================== -->
+    <div class="footer-ending">
+      <img src="images/footer-bg.png" alt="mountain" class="footer-img" />
+      <hr class="horizontal-line">
+      <p class="copyright-info">Copyright @ Xpro 2022. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
 </html>

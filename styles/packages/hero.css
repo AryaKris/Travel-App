@@ -1,0 +1,223 @@
+.packages-archive-hero-section {
+  max-width: 1920px;
+  min-height: 760px;
+  margin: auto;
+  padding: 20px;
+  background-image: url("../../images/packages-archive-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pack-navbar {
+  max-width: 1440px;
+}
+
+.pack-navbar-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.pack-nav-logo {
+  color: #fff;
+  font-family: "Volkhov", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pack-nav-contents {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pack-nav-right {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  color: #fff;
+}
+
+.pack-nav-left {
+  position: relative;
+}
+
+.pack-nav-left img {
+  position: absolute;
+  left: 30px;
+  top: 25px;
+}
+
+.pack-nav-elements {
+  display: flex;
+  gap: 50px;
+}
+
+.pack-dropdown-contents {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pack-nav-box {
+  position: absolute;
+  visibility: hidden;
+}
+
+.pack-dropdown {
+  position: relative;
+}
+
+.pack-dropdown-list {
+  list-style: none;
+  display: none;
+  position: absolute;
+  gap: 15px;
+  min-width: max-content;
+  padding: 45px 15px;
+}
+
+.pack-nav-services:hover .pack-dropdown-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.pack-nav-services:hover .pack-nav-box {
+  visibility: visible;
+}
+
+.pack-dropdown-contents:hover {
+  color: #e4dada;
+}
+
+.pack-btn {
+  background-color: #df6951;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pack-btn:hover {
+  background-color: #db553a;
+}
+
+.pack-hero-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 700px;
+}
+
+.pack-subtitle {
+  color: #ffefec;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.pack-title {
+  color: #fff;
+  font-family: "YesterYear", sans-serif;
+  font-size: 158px;
+  font-weight: 400;
+  line-height: 220px;
+}
+
+@media screen and (max-width: 1024px) {
+  .pack-nav-logo {
+    font-size: 24px;
+  }
+
+  .pack-nav-contents {
+    font-size: 14px;
+  }
+
+  .pack-nav-right {
+    gap: 50px;
+  }
+
+  .pack-nav-left img {
+    left: 25px;
+    top: 20px;
+    width: 70px;
+  }
+
+  .pack-nav-elements {
+    display: flex;
+    gap: 40px;
+  }
+
+  .pack-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .pack-subtitle {
+    font-size: 14px;
+  }
+
+  .pack-title {
+    font-size: 120px;
+    line-height: 170px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pack-navbar {
+    max-width: 1440px;
+  }
+
+  .pack-navbar-list {
+    flex-direction: column;
+  }
+
+  .pack-nav-elements {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pack-nav-right {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .pack-hero-heading {
+    min-height: 400px;
+  }
+
+  .pack-subtitle {
+    font-size: 10px;
+  }
+
+  .pack-title {
+    font-size: 70px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .pack-nav-right {
+    position: relative;
+  }
+
+  .pack-btn {
+    position: absolute;
+    right: 0px;
+    bottom: 140px;
+  }
+}
