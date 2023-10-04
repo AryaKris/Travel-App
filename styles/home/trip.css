@@ -73,6 +73,105 @@
   left: 260px;
 }
 
+.img-icon-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-icon {
+  display: flex;
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+.image-group img {
+  max-width: 100%;
+}
+
+.bookings-text {
+  font-size: 14px;
+}
+
+.flight-image {
+  max-width: 50%;
+  float: right;
+  margin-left: 20px;
+}
+
+.serviceImage-heading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1e1d4c;
+}
+
+.service-content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5e6282;
+}
+
+.headingImg {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #5e6282;
+}
+
+.contentImg {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  font-weight: 100;
+  color: #5e6282;
+}
+
+.imgIllustration {
+  max-width: auto;
+  height: auto;
+}
+
+.imgIllustration-background-square {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+
+.imgIllustration-background-building {
+  position: absolute;
+  top: 150px;
+  left: 221px;
+}
+
+.imgIllustration-background-flight {
+  position: absolute;
+  top: -50px;
+  left: 188px;
+  z-index: -1;
+}
+
+.imgIllustration-background-ellips-blue {
+  opacity: 0.3;
+}
+
+.image-background-element {
+  position: absolute;
+  top: 430px;
+  left: 123px;
+  z-index: -1;
+}
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   .imgIllustration {
     width: 100%;

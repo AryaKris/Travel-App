@@ -92,6 +92,34 @@
   box-shadow: 1px 4px 12px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
+  background: white;
+}
+
+.trend-progress-fill1 {
+  background: conic-gradient(
+    #8437ff 0deg,
+    #10e7ff 280.8deg,
+    transparent 280.8deg,
+    transparent 360deg
+  );
+}
+
+.trend-progress-fill2 {
+  background: conic-gradient(
+    #FF4098 0deg,
+    #FFB47D 198deg,
+    transparent 198deg,
+    transparent 360deg
+  );
+}
+
+.trend-progress-fill3 {
+  background: conic-gradient(
+    #7202FF 0deg,
+    #D820F9 108deg,
+    transparent 108deg,
+    transparent 360deg
+  );
 }
 
 .progress-sections {
